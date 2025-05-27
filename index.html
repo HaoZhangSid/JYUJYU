@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JYU.INTEGRA Interview Preparation (English - Vietnamese - Finnish)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px; /* Oletusmarginaali isommille näytöille */
+            background-color: #f4f4f4;
+            color: #333;
+            -webkit-text-size-adjust: 100%; /* Estää automaattisen fonttikoon muutoksen mobiilissa */
+            text-size-adjust: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto; /* Keskittää containerin, oletusmarginaali sivuilla isommilla näytöillä */
+            background: #fff;
+            padding: 20px; /* Oletustäyte isommille näytöille */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #0056b3; /* JYU Blue */
+            padding-bottom: 10px;
+            font-size: 2em; /* Oletusfonttikoko isommille näytöille */
+        }
+        h2 {
+            color: #0056b3; /* JYU Blue */
+            margin-top: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            font-size: 1.6em; /* Oletusfonttikoko isommille näytöille */
+        }
+        .section-title-vn, .section-title-fi {
+            font-size: 0.9em;
+            color: #555;
+            text-align: center; /* Varmistetaan keskitys */
+        }
+        /* Korjataan ylimääräiset H1-tyylit section-title-luokille */
+        h1.section-title-vn, h1.section-title-fi {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-top: -10px; /* Säädetty, jotta ei mene liian lähelle pääotsikkoa */
+        }
+        h1.section-title-fi {
+             margin-top: -5px; /* Pieni säätö kahden kieliversio-otsikon välillä */
+             margin-bottom: 20px;
+        }
+
+        .question-block {
+            margin-bottom: 25px;
+            padding: 15px; /* Oletustäyte isommille näytöille */
+            border-left: 4px solid #007bff;
+            background-color: #e9f5ff;
+            border-radius: 4px;
+        }
+        .question-prompt-en, .question-prompt-vn, .question-prompt-fi {
+            font-weight: bold;
+            color: #0056b3;
+            margin-bottom: 5px;
+        }
+        .question-prompt-vn, .question-prompt-fi {
+            font-size: 0.95em;
+            color: #0069d9;
+        }
+        .answer-section {
+            margin-top: 10px;
+            padding-left: 10px; /* Oletustäyte isommille näytöille */
+            border-left: 2px solid #ddd;
+        }
+        .answer-lang-label {
+            font-weight: bold;
+            font-size: 0.9em;
+            color: #444;
+            margin-bottom: 3px;
+        }
+        .answer, .answer-vn, .answer-fi {
+            margin-left: 10px; /* Oletusmarginaali isommille näytöille */
+            margin-bottom: 10px;
+            word-break: break-word; /* Auttaa pitkiä sanoja rivittymään paremmin */
+        }
+        .answer-vn, .answer-fi {
+             font-style: italic;
+             color: #333;
+        }
+        .important-note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffeeba;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .important-note p { /* Lisätty, jotta marginaalit p-elementtien sisällä nollataan tarvittaessa */
+            margin-top: 0;
+            margin-bottom: 0.5em;
+        }
+        .important-note p:last-child {
+            margin-bottom: 0;
+        }
+        .important-note-vn, .important-note-fi {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        strong {
+            color: #333;
+        }
+
+        /* Mobiilioptimoinnit */
+        @media (max-width: 600px) {
+            body {
+                margin: 10px; /* Vähemmän marginaalia bodylle pienillä näytöillä */
+                font-size: 15px; /* Hieman pienempi perusfontti luettavuuden parantamiseksi mobiilissa */
+            }
+            .container {
+                padding: 10px; /* Vähemmän täytettä containerille */
+                margin-left: 5px; /* Pienempi marginaali sivuilla */
+                margin-right: 5px;
+                width: auto; /* Annetaan containerin venyä näytön leveyden mukaan, kun max-width ei ole saavutettu */
+            }
+            h1 {
+                font-size: 1.6em; /* Pienempi pääotsikko mobiilissa */
+                padding-bottom: 8px;
+            }
+            h1.section-title-vn, h1.section-title-fi {
+                font-size: 1.1em; /* Pienemmät kieliversio-otsikot */
+                margin-top: -5px;
+                margin-bottom: 15px;
+            }
+            h2 {
+                font-size: 1.3em; /* Pienempi alaotsikko mobiilissa */
+                margin-top: 20px;
+            }
+            .question-block {
+                padding: 10px; /* Vähemmän täytettä kysymyslohkoille */
+                margin-bottom: 20px;
+            }
+            .answer-section {
+                padding-left: 8px; /* Hieman vähemmän vasenta täytettä vastausosioille */
+                margin-top: 8px;
+            }
+            .answer, .answer-vn, .answer-fi {
+                margin-left: 5px; /* Vähemmän vasenta marginaalia vastauksille */
+                margin-bottom: 8px;
+            }
+            .important-note {
+                padding: 8px 10px;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JYU.INTEGRA Interview Preparation (English - Vietnamese - Finnish)</h1>
+        <h1 class="section-title-vn">Chuẩn bị Phỏng vấn JYU.INTEGRA (Tiếng Anh - Tiếng Việt - Tiếng Phần Lan)</h1>
+        <h1 class="section-title-fi">JYU.INTEGRA Haastatteluvalmistelu (Englanti - Vietnam - Suomi)</h1>
+
+
+        <div class="important-note">
+            <p><strong>Important Note:</strong> This version focuses on English answers for practice, with Vietnamese and Finnish provided for reference. The English has been simplified for easier, more natural speaking. Finnish translations aim for a simpler, learner-like style.</p>
+            <p class="important-note-vn"><strong>Lưu ý quan trọng:</strong> Phiên bản này tập trung vào các câu trả lời bằng tiếng Anh để luyện tập, với phần tiếng Việt và tiếng Phần Lan được cung cấp để tham khảo. Tiếng Anh đã được đơn giản hóa để nói dễ dàng và tự nhiên hơn. Bản dịch tiếng Phần Lan hướng đến phong cách đơn giản hơn, giống như người học.</p>
+            <p class="important-note-fi"><strong>Tärkeä huomautus:</strong> Tämä versio keskittyy englanninkielisiin vastauksiin harjoittelua varten, vietnamilais- ja suomenkieliset käännökset ovat mukana viitteenä. Englanninkielistä ilmaisua on yksinkertaistettu luontevamman puheen helpottamiseksi. Suomenkielisissä käännöksissä pyritään yksinkertaisempaan, oppijamaisempaan tyyliin.</p>
+        </div>
+
+        <h2>1. General questions about you and your background</h2>
+        <p class="section-title-vn">(Các câu hỏi chung về bạn và lý lịch của bạn)</p>
+        <p class="section-title-fi">(Yleisiä kysymyksiä sinusta ja taustastasi)</p>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Tell us a little about yourself." / "Who are you?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Hãy cho chúng tôi biết một chút về bạn.” / “Bạn là ai?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Kerro meille vähän itsestäsi." / "Kuka olet?"</p>
+            
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    Hi, my name is Thi Thanh Tuyen Tran, but you can call me Tuyen. I'm 31 and I'm from Vietnam. My husband and I moved to Finland in August 2023, so we've been here for just over a year. We live in Hämeenlinna, and he's studying at HAMK.
+                    When I first came to Finland, I started learning Finnish by myself at home. Then, I took an integration course with TE Services and finished Module 1, which was about four months long. But then the rules changed, so they didn't offer Modules 2, 3, or 4 anymore. So, I signed up for a TUVA program. It's a preparatory course, a bit over three months, and it finishes at the end of May. I really hope I can keep learning Finnish so I can continue my studies.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Nguyên bản):</p>
+                <p class="answer-vn">
+                    Xin chào, tôi tên là Tuyền, năm nay 31 tuổi, tôi đến từ Việt Nam, tôi đến Phần Lan cùng chồng của tôi được hơn 1 năm rồi, chồng của tôi học ở HAMK, hiện tại chúng tôi đang sống ở Hämeenlinna. Khi mới đến Phần Lan tôi tự học tiếng Phần Lan ở nhà sau đó tham gia khóa học hội nhập của TE, tôi đã học moduli 1 trong 4 tháng. Sau đó vì chính sách thay đổi không còn moduli 2, 3, 4 nữa, tôi đã đăng kí học TUVA, khoá học này kéo dài hơn 3 tháng, và sẽ kết thúc vào cuối tháng 5. Tôi hy vọng có cơ hội được học tiếng Phần Lan để tiếp tục con đường học vấn của mình.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Hei, minun nimi on Tuyen. Thi Thanh Tuyen Tran, mutta Tuyen on helpompi. Minä olen 31 vuotta. Minä tulen Vietnamista. Minä tulin Suomeen minun miehen kanssa. Se oli elokuu 2023. Nyt me olemme olleet täällä… öö… vähän yli yksi vuosi. Me asua Hämeenlinnassa. Minun mies opiskelee HAMK.
+                    Kun minä tulin Suomeen, minä aloitin opiskella suomea. Ihan itse, kotona. Sitten minä menin TE-toimiston kurssille, se kotoutumiskurssi. Minä tein moduuli 1. Se oli noin neljä kuukautta. Mutta sitten… se systeemi muuttui. Ei ollut enää moduuli 2, 3 ja 4. Siksi minä menin TUVA-koulutukseen. Se on semmoinen… valmistava. Se kestää vähän yli kolme kuukautta. Ja se loppuu toukokuun lopussa. Minä toivon kovasti, että minä voin jatkaa suomen kielen opiskelua. Sitten minä voin jatkaa minun opiskeluja.
+                </p>
+            </div>
+        </div>
+
+        <h2>2. Study and work history</h2>
+        <p class="section-title-vn">(Lịch sử học tập và làm việc)</p>
+        <p class="section-title-fi">(Opiskelu- ja työhistoria)</p>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "What have you studied before?" / "Tell us about your work history."</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Trước đây bạn đã học gì?” / “Hãy cho chúng tôi biết về lịch sử làm việc của bạn.”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Mitä olet opiskellut aiemmin?" / "Kerro meille työhistoriastasi."</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    Back in Vietnam, I studied medicine at Can Tho University of Medicine and Pharmacy. That was a six-year program, and I graduated in 2021. After I graduated, I worked as a doctor in a hospital for almost two years. I was in the internal medicine department. Then I moved to Finland.
+                    While I was studying medicine, I also learned Chinese. After I became a doctor, besides my full-time hospital job, I also taught Chinese at a language center in the evenings and on weekends.
+                    Since coming to Finland, I've been learning Finnish. Right now, I'm in a TUVA preparatory program, and that finishes at the end of May.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Nguyên bản & bổ sung):</p>
+                <p class="answer-vn">
+                    Ở Việt Nam, tôi đã học ở trường đại học y dược Cần Thơ, ngành bác sĩ, chương trình học kéo dài 6 năm, sau khi tốt nghiệp tôi làm bác sĩ ở bệnh viện khoảng gần 2 năm ở khoa nội trước khi chuyển đến Phần Lan.
+                    Trong quá trình học bác sĩ, tôi còn học thêm tiếng Trung. Sau khi tôi tốt nghiệp ngành bác sĩ, ngoài làm full time ở bệnh viện thì tôi còn dạy tiếng Trung ở một trung tâm ngoại ngữ vào buổi tối và ngày cuối tuần.
+                    Ở Phần Lan, tôi đã học tiếng Phần Lan, và hiện tại tôi đang tham gia chương trình dự bị TUVA, chương trình này sẽ kết thúc vào cuối tháng 5.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Vietnamissa, minä opiskelin lääkäriksi. Se oli Can Tho Yliopisto. Se kesti kuusi vuotta. Minä valmistuin 2021. Kun minä valmistuin, minä työskentelin lääkärinä sairaalassa. Melkein kaksi vuotta. Minä olin sisätautien osastolla. Sitten minä muutin Suomeen.
+                    Kun minä opiskelin lääkäriksi, minä opiskelin myös kiinaa. Kun minä olin lääkäri, minulla oli työ sairaalassa. Mutta minä myös opetin kiinaa. Se oli kielikeskus, iltaisin ja viikonloppuisin.
+                    Nyt Suomessa, minä opiskelen suomea. Ja minä olen nyt TUVA-koulutuksessa. Se loppuu toukokuun lopussa.
+                </p>
+            </div>
+        </div>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Why did you choose the field of medicine?" (If they ask for more details)</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Tại sao bạn chọn ngành y?” (Nếu họ hỏi thêm chi tiết)</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Miksi valitsit lääketieteen alan?" (Jos he kysyvät lisätietoja)</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    When I was growing up in Vietnam, my family didn't have a lot of money. Since I was young, I always wanted to be a doctor. I wanted to help my family and also other people who were poor or sick. I've always wanted to help people, and I find medicine really interesting and important. I like learning about the human body, about illnesses, and how we can help people get better. Also, in Vietnam, being a doctor means you usually have a steady job and good income, so that was also a reason.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Nguyên bản & bổ sung):</p>
+                <p class="answer-vn">
+                    Ở Việt Nam, tôi sinh ra trong gia đình nghèo khó, và từ nhỏ tôi đã mong ước được trở thành một bác sĩ để giúp đỡ gia đình mình và các bệnh nhân nghèo. Tôi luôn muốn giúp đỡ mọi người. Y học là một lĩnh vực thú vị và quan trọng đối với tôi. Tôi thích tìm hiểu về cơ thể con người, bệnh tật và cách mọi người có thể được chữa lành. Ngoài ra, ở Việt Nam, bác sĩ là một ngành dễ kiếm việc và sẽ có thu nhập ổn định.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Kun minä olin nuori Vietnamissa, minun perhe oli köyhä. Minä halusin aina olla lääkäri, jo pienenä. Minä halusin auttaa minun perhettä. Ja myös muita ihmisiä, jotka ovat köyhiä tai sairaita. Minä aina haluan auttaa ihmisiä. Ja lääketiede on minusta… öö… kiinnostava ja tärkeä. Minä tykkään oppia ihmisestä, sairauksista, ja miten voi parantaa ihmisiä. Vietnamissa lääkäri on myös hyvä työ, saa helposti työtä ja palkka on vakaa. Se oli myös yksi syy.
+                </p>
+            </div>
+        </div>
+
+        <h2>3. Motivation to study in the JYU.INTEGRA program</h2>
+        <p class="section-title-vn">(Động lực học tập trong chương trình JYU.INTEGRA)</p>
+        <p class="section-title-fi">(Motivaatio opiskella JYU.INTEGRA-ohjelmassa)</p>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Why did you apply specifically to this JYU.INTEGRA program?" / "What do you expect from this program?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Tại sao bạn đăng ký cụ thể vào chương trình JYU.INTEGRA này?” / “Bạn mong đợi điều gì từ chương trình này?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Miksi hait juuri tähän JYU.INTEGRA-ohjelmaan?" / "Mitä odotat tältä ohjelmalta?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    I want to continue my studies in Finland and work in healthcare. I think the JYU.INTEGRA program can really help me get better at Finnish and English. It will also teach me what it's like to study at a Finnish university. I feel this program will prepare me well for the future.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Tôi muốn tiếp tục việc học của mình ở Phần Lan và làm việc trong lĩnh vực chăm sóc sức khỏe. Chương trình JYU.INTEGRA sẽ giúp tôi cải thiện kỹ năng tiếng Phần Lan và tiếng Anh. Nó cũng sẽ giúp tôi hiểu cách học tập tại một trường đại học ở Phần Lan. Tôi tin rằng chương trình này sẽ mang lại cho tôi những kỹ năng tốt cho tương lai.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Minä haluan jatkaa opiskelua Suomessa. Ja minä haluan työskennellä terveysalalla. Minä ajattelen, että JYU.INTEGRA-ohjelma voi auttaa minua paljon. Minun suomen kieli ja englannin kieli voi tulla paremmaksi. Se myös opettaa minulle, miten opiskella Suomen yliopistossa. Minä uskon, että tämä ohjelma antaa minulle hyvät taidot tulevaisuuteen.
+                </p>
+            </div>
+        </div>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "How would this program help you achieve your goals?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Chương trình này sẽ giúp bạn đạt được mục tiêu của mình như thế nào?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Miten tämä ohjelma auttaisi sinua saavuttamaan tavoitteesi?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    Good language skills are super important if I want to study and work in Finland. Also, things like academic writing and finding information are key skills. And this program covers those. It feels like a good way to connect what I know now with what I need for future studies.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Kỹ năng ngôn ngữ tốt hơn thực sự quan trọng khi tôi muốn học tập và làm việc ở Phần Lan. Ngoài ra, các kỹ năng học thuật, như viết và tìm kiếm thông tin, cũng rất quan trọng. Chương trình này dạy những điều này. Đó là một cầu nối tốt giữa kiến thức hiện tại của tôi và các nghiên cứu trong tương lai.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Hyvä kielitaito on tosi tärkeä. Jos minä haluan opiskella ja työskennellä Suomessa. Myös, esimerkiksi, akateeminen kirjoittaminen ja tiedonhaku, ne ovat tärkeitä taitoja. Ja tämä ohjelma opettaa niitä. Se on kuin hyvä silta. Minun nykyinen tieto ja tuleva opiskelu.
+                </p>
+            </div>
+        </div>
+
+        <h2>4. Future plans</h2>
+        <p class="section-title-vn">(Kế hoạch tương lai)</p>
+        <p class="section-title-fi">(Tulevaisuuden suunnitelmat)</p>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "What kind of plans do you have for the future, for example, after this program?" / "Where do you see yourself in five years?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Bạn có kế hoạch gì cho tương lai, ví dụ, sau chương trình này?” / “Bạn thấy mình ở đâu trong năm năm tới?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Millaisia suunnitelmia sinulla on tulevaisuudelle, esimerkiksi tämän ohjelman jälkeen?" / "Missä näet itsesi viiden vuoden kuluttua?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    After this program, I plan to apply for university studies in healthcare here in Finland. Maybe as a nurse, or even a doctor, if I can. In five years, I see myself with a Finnish degree and working in healthcare. And I really want to be fluent in Finnish by then.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Sau chương trình này, tôi muốn đăng ký học trong lĩnh vực chăm sóc sức khỏe tại một trường đại học ở Phần Lan. Có thể là y tá, hoặc bác sĩ nếu có thể. Trong năm năm tới, tôi hy vọng sẽ có bằng cấp từ Phần Lan và làm việc trong lĩnh vực chăm sóc sức khỏe. Tôi cũng muốn nói tiếng Phần Lan lưu loát.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Tämän ohjelman jälkeen, minä aion hakea yliopistoon. Terveysalalle, täällä Suomessa. Ehkä sairaanhoitaja, tai ehkä lääkäri, jos se on mahdollista. Viiden vuoden päästä… minä toivon, että minulla on tutkinto Suomesta. Ja minä työskentelen terveysalalla. Ja minä haluan puhua suomea tosi hyvin silloin.
+                </p>
+            </div>
+        </div>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Are you prepared to work hard to achieve your goals?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Bạn có sẵn sàng làm việc chăm chỉ để đạt được mục tiêu của mình không?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Oletko valmis tekemään kovasti töitä saavuttaaksesi tavoitteesi?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    Yes, definitely. I know it will be a lot of hard work and study, but I'm very motivated. I'm a hard worker and I'm not scared of challenges.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Vâng, tôi rất sẵn sàng. Tôi biết điều đó đòi hỏi rất nhiều học tập và làm việc, nhưng tôi có động lực. Tôi chăm chỉ và không ngại thử thách.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Kyllä, olen valmis. Minä tiedän, se on paljon työtä ja opiskelua. Mutta minä olen motivoitunut. Minä olen ahkera. Ja minä en pelkää haasteita.
+                </p>
+            </div>
+        </div>
+
+        <h2>5. Other possible questions</h2>
+        <p class="section-title-vn">(Các câu hỏi khác có thể)</p>
+        <p class="section-title-fi">(Muita mahdollisia kysymyksiä)</p>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "What are your strengths as a student?" / "What are your weaknesses?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Điểm mạnh của bạn với tư cách là một sinh viên là gì?” / “Điểm yếu của bạn là gì?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Mitkä ovat vahvuutesi opiskelijana?" / "Mitkä ovat heikkoutesi?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    I think my strengths are that I'm hardworking, patient, and I love learning new things. I'm also quite organized. For weaknesses, maybe sometimes I'm too careful and spend too much time on details for a task. And my Finnish is still a bit of a challenge, but I'm always working on it and trying to get better.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Điểm mạnh của tôi là sự siêng năng, kiên nhẫn và ham muốn học hỏi những điều mới. Tôi cũng có tổ chức. Có lẽ đôi khi tôi quá tỉ mỉ và dành nhiều thời gian cho các nhiệm vụ. Kỹ năng tiếng Phần Lan của tôi vẫn còn là một thách thức, nhưng tôi không ngừng học tập để cải thiện chúng.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Minun vahvuudet… minä olen ahkera. Ja kärsivällinen. Ja minä tykkään oppia uusia asioita. Minä olen myös järjestelmällinen. Heikkoudet… ehkä joskus minä olen liian tarkka. Ja käytän liikaa aikaa pieniin asioihin tehtävässä. Ja minun suomen kieli… se on vielä vähän vaikea. Mutta minä opiskelen koko ajan ja yritän parantaa.
+                </p>
+            </div>
+        </div>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Why the University of Jyväskylä specifically?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Tại sao lại cụ thể là Đại học Jyväskylä?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Miksi juuri Jyväskylän yliopisto?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    I've heard good things about Movi, the language center at the University of Jyväskylä, and the INTEGRA program looks really well put together and helpful for international students like me. Plus, Jyväskylä seems like a great city to be a student in.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Tôi đã nghe những điều tốt đẹp về Trung tâm Giao tiếp Học thuật Đa ngôn ngữ (Movi) tại Đại học Jyväskylä, và chương trình INTEGRA có vẻ được thiết kế rất tốt và hỗ trợ cho sinh viên quốc tế. Jyväskylä cũng có vẻ là một thành phố tốt để học tập.
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Minä olen kuullut hyviä asioita Movista. Se on Jyväskylän yliopiston kielikeskus. Ja INTEGRA-ohjelma näyttää tosi hyvältä ja se auttaa kansainvälisiä opiskelijoita, niin kuin minä. Ja Jyväskylä näyttää kivalta kaupungilta opiskella.
+                </p>
+            </div>
+        </div>
+        <div class="question-block">
+            <p class="question-prompt-en">Question (English): "Do you have any questions for us?"</p>
+            <p class="question-prompt-vn">Câu hỏi (Tiếng Việt): “Bạn có câu hỏi nào cho chúng tôi không?”</p>
+            <p class="question-prompt-fi">Kysymys (Suomi): "Onko sinulla kysyttävää meille?"</p>
+            <div class="answer-section">
+                <p class="answer-lang-label">English Answer (Simplified & Natural):</p>
+                <p class="answer">
+                    Yes, thanks. I was wondering, what's a normal study day like in the INTEGRA program? And how does the program help students get used to university life and life in Finland generally?
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Câu trả lời Tiếng Việt (Dịch):</p>
+                <p class="answer-vn">
+                    Vâng, cảm ơn. Một ngày học tập điển hình trong chương trình INTEGRA như thế nào? Và chương trình hỗ trợ sinh viên hòa nhập vào cộng đồng đại học và xã hội Phần Lan như thế nào?
+                </p>
+            </div>
+            <div class="answer-section">
+                <p class="answer-lang-label">Vastaus suomeksi (Oppijamainen & Yksinkertainen):</p>
+                <p class="answer-fi">
+                    Kyllä, kiitos. Minä mietin, millainen on normaali opiskelupäivä INTEGRA-ohjelmassa? Ja miten ohjelma auttaa opiskelijoita… öö… tottumaan yliopistoelämään ja elämään Suomessa?
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
